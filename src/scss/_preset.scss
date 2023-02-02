@@ -1,0 +1,39 @@
+$primary: #FFA242;
+$secondary: #924CFF;
+$red: #FA3C3C;
+$blue: #1CC7FF;
+$green: #33FF6D;
+$black: #0c1016;
+$grayishWhite: #cacaca;
+
+$bigNoodle: "BigNoodle";
+
+@font-face {
+    font-family: $bigNoodle;
+    src: url(./../assets/fonts/big_noodle_titling.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: $bigNoodle;
+    src: url(./../assets/fonts/big_noodle_titling_oblique.ttf);
+    font-weight: 600;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $black;
+    font-size: 1.2rem;
+    font-family: $bigNoodle;
+    color: $primary;
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
